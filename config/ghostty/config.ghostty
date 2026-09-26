@@ -1,0 +1,4 @@
+theme = dark:Catppuccin Macchiato,light:Catppuccin Latte
+
+window-decoration = none
+window-theme = system

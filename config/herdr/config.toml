@@ -1,0 +1,10 @@
+onboarding = false
+
+[theme]
+name = "catppuccin"
+auto_switch = true
+dark_name = "catppuccin-macchiato"
+light_name = "catppuccin-latte"
+
+[keys]
+prefix = "ctrl+space"

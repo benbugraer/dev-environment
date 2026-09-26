@@ -1,0 +1,35 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Runtime logs and sockets
+*.log
+*.sock
+session.json
+
+# Credentials / local-only auth
+**/auth.json
+**/github-credentials
+**/*credentials*
+**/*secret*
+**/*token*
+!scripts/check-secrets.sh
+.env
+.env.*
+!.env.example
+
+# Herdr generated state
+config/herdr/config-gpui.toml
+config/herdr/config-gpui.lock
+config/herdr/.plugins.lock
+config/herdr/plugins/
+config/herdr/plugins.json
+
+# Neovim generated state (kept outside this repo by default)
+.local/
+.cache/
+
+# Dependencies
+node_modules/

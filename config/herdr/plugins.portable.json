@@ -1,0 +1,13 @@
+[
+  {
+    "plugin_id": "annotate",
+    "name": "Annotate",
+    "source": {
+      "kind": "github",
+      "owner": "plannotator",
+      "repo": "herdr-annotate",
+      "resolved_commit": "1bc258353f0a7af0781493e1c1ffca09b71666bc"
+    },
+    "note": "Portable record only. Do not copy Herdr's generated plugins.json because it contains machine-specific absolute paths."
+  }
+]

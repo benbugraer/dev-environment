@@ -1,0 +1,14 @@
+{
+  "theme": "dark",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-5.5",
+  "defaultThinkingLevel": "medium",
+  "enableSkillCommands": true,
+  "defaultProjectTrust": "ask",
+  "enableInstallTelemetry": false,
+  "enableAnalytics": false,
+  "packages": [
+    "npm:pi-web-access",
+    "npm:@plannotator/pi-extension"
+  ]
+}
